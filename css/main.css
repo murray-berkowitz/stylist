@@ -138,11 +138,7 @@ h4 {
   color: #d4b2bc; }
 
 .bottom {
-  margin-bottom: .75em; }
-
-a:link {
-  text-decoration: none;
-  color: #d4b2bc; }
+  margin-bottom: .5em; }
 
 .menu {
   background-image: url(../img/cream.jpg);
@@ -159,15 +155,70 @@ a:link {
 .logo {
   padding: 15px 0; }
 
-.menu-item {
+.home .menu-item {
   transition: .75s background-color ease-in; }
-  .menu-item .menu-link {
+  .home .menu-item .menu-link {
     transition: .75s color ease-in;
     padding: 10px 0; }
-  .menu-item:hover {
+  .home .menu-item:hover {
     background-color: #210124; }
-    .menu-item:hover .menu-link {
+    .home .menu-item:hover .menu-link {
       color: #E5FCF5 !important; }
+.home .slider-circles {
+  position: absolute;
+  bottom: 8px;
+  left: 50%; }
+  .home .slider-circles .circle {
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #E5FCF5;
+    margin: 2px;
+    width: 12px;
+    height: 12px; }
+
+a:link {
+  text-decoration: none;
+  color: #d4b2bc; }
+
+.circle-active {
+  background-color: #d4b2bc !important;
+  transition: .5s background-color ease-in; }
+
+.menu {
+  background-image: url(../img/cream.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100vh; }
+
+.home-img {
+  background-image: url(../img/hair-girl-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+.logo {
+  padding: 15px 0; }
+
+.home .menu-item {
+  transition: .75s background-color ease-in; }
+  .home .menu-item .menu-link {
+    transition: .75s color ease-in;
+    padding: 10px 0; }
+  .home .menu-item:hover {
+    background-color: #210124; }
+    .home .menu-item:hover .menu-link {
+      color: #E5FCF5 !important; }
+.home .slider-circles {
+  position: absolute;
+  bottom: 8px;
+  left: 50%; }
+  .home .slider-circles .circle {
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #E5FCF5;
+    margin: 2px;
+    width: 12px;
+    height: 12px; }
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0; }
@@ -191,6 +242,6 @@ h4 {
   color: #d4b2bc; }
 
 .bottom {
-  margin-bottom: .75em; }
+  margin-bottom: .5em; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,10 @@
 @import 'base';
+@import 'module';
 a:link {
 	text-decoration:none;
 	color: $primary-pink;
+}
+.circle-active {
+	background-color:$primary-pink !important;
+	transition: .5s background-color ease-in;
 }

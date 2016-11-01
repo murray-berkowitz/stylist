@@ -13,17 +13,31 @@
 .logo {
 	padding:15px 0;
 }
-
-.menu-item{
-	transition:.75s background-color ease-in;
-	.menu-link {
-		transition:.75s color ease-in;
-		padding:10px 0;
-	}
-	&:hover {
-		background-color:#210124;
-		.menu-link{
-			color: #E5FCF5 !important;
+.home {
+	.menu-item{
+		transition:.75s background-color ease-in;
+		.menu-link {
+			transition:.75s color ease-in;
+			padding:10px 0;
 		}
-	}	
+		&:hover {
+			background-color:#210124;
+			.menu-link{
+				color: #E5FCF5 !important;
+			}
+		}	
+	}
+	.slider-circles {	
+		position:absolute;
+		bottom:8px;
+		left:50%;
+		.circle {
+			border-radius: 50%;
+			display:inline-block;
+			background-color: #E5FCF5;
+			margin:2px;			
+			width:12px;
+			height:12px;
+		}
+	}
 }
