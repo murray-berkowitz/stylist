@@ -1,5 +1,5 @@
 
-var images = ['url(img/hair-girl-main.jpg)', 'url(img/cream.jpg)', 'url(img/hair-girl-main.jpg)']
+var images = ['url(img/hair-girl-main.jpg)', 'url(img/hair2.jpg)', 'url(img/hair3.jpg)']
 //Preload images first 
 $.fn.preload = function() {
     this.each(function(){
