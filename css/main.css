@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif; }
+
+.span2 {
+  width: 15.83333%;
+  float: left; }
+
+.span3 {
+  width: 24.25%;
+  float: left; }
+
+.span4 {
+  width: 32.66667%;
+  float: left; }
+
+.span5 {
+  width: 41.08333%;
+  float: left; }
+
+.span6 {
+  width: 49.5%;
+  float: left; }
+
+.span7 {
+  width: 57.91667%;
+  float: left; }
+
+.span8 {
+  width: 66.33333%;
+  float: left; }
+
+.span9 {
+  width: 74.75%;
+  float: left; }
+
+.span10 {
+  width: 83.16667%;
+  float: left; }
+
+.span11 {
+  width: 91.58333%;
+  float: left; }
+
+.exact1 {
+  width: 8.33333%;
+  float: left; }
+
+.exact2 {
+  width: 16.66667%;
+  float: left; }
+
+.exact3 {
+  width: 25%;
+  float: left; }
+
+.exact4 {
+  width: 33.33333%;
+  float: left; }
+
+.exact5 {
+  width: 41.66667%;
+  float: left; }
+
+.exact6 {
+  width: 50%;
+  float: left; }
+
+.exact7 {
+  width: 58.33333%;
+  float: left; }
+
+.exact8 {
+  width: 66.66667%;
+  float: left; }
+
+.exact9 {
+  width: 75%;
+  float: left; }
+
+.exact10 {
+  width: 83.33333%;
+  float: left; }
+
+.exact11 {
+  width: 91.66667%;
+  float: left; }
+
+.span12 {
+  width: 100%;
+  float: left; }
+
+.col {
+  margin-left: 1%; }
+
+.center {
+  text-align: center; }
+
+.outer {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 85%; }
+
+.middle {
+  display: table-cell;
+  vertical-align: middle; }
+
+.inline {
+  display: inline-block; }
+
+.home .menu-content {
+  position: relative;
+  top: 22%;
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
+h1 {
+  font-size: 64px; }
+
+h2 {
+  font-size: 48px; }
+
+h3 {
+  font-size: 36px; }
+
+h4 {
+  font-size: 24px; }
+
+.regular {
+  font-weight: normal; }
+
+.primary-pink {
+  color: #d4b2bc; }
+
+.bottom {
+  margin-bottom: 1em; }
+
+a:link {
+  text-decoration: none;
+  color: #d4b2bc; }
+
+.menu {
+  background-image: url(../img/cream.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100vh; }
+
+.home-img {
+  background-image: url(../img/hair-girl-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+.logo {
+  padding: 15px 0; }
+
+.menu-item {
+  transition: .75s background-color ease-in; }
+  .menu-item .menu-link {
+    transition: .75s color ease-in;
+    padding: 10px 0; }
+  .menu-item:hover {
+    background-color: #210124; }
+    .menu-item:hover .menu-link {
+      color: #E5FCF5 !important; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
+h1 {
+  font-size: 64px; }
+
+h2 {
+  font-size: 48px; }
+
+h3 {
+  font-size: 36px; }
+
+h4 {
+  font-size: 24px; }
+
+.regular {
+  font-weight: normal; }
+
+.primary-pink {
+  color: #d4b2bc; }
+
+.bottom {
+  margin-bottom: 1em; }
+
+/*# sourceMappingURL=main.css.map */

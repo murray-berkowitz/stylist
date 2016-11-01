@@ -1,0 +1,26 @@
+$primary-pink: #d4b2bc;
+h1,h2,h3,h4,h5,h6,p {
+	margin:0;
+}
+h1 {
+	font-size:64px;
+}
+h2 {
+	font-size:48px;
+}
+h3{
+	font-size:36px;
+}
+h4 {
+	font-size:24px;
+}
+.regular {
+	font-weight:normal;
+}
+
+.primary-pink {
+	color:$primary-pink;
+}
+.bottom {
+	margin-bottom:1em;
+}
